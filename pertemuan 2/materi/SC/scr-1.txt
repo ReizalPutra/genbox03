@@ -1,0 +1,22 @@
+tulis 10 tag yang termasuk display inline
+1. a
+2. img
+3. em
+4. em
+5. time
+6. var
+7. map
+8. q
+9. sub
+10. cite
+tulis 10 yang termasuk display blok
+1. h1
+2. ol
+3. ul
+4. dl 
+5. li
+6. blockquote
+7. div 
+8. aside
+9. article
+10. nav
