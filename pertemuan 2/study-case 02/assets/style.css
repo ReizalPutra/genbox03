@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5F5;
+}
+nav{
+    padding: 64px 4px;
+}
+li, h1, ul{
+    display: inline;
+}
+h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin-right: 82px;
+    color: #007BFF;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-left: 64px;
+}
+li{
+    margin-right: 65px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #343A40;
+}
+.container {
+    display: flex;
+    width: 40%;
+    margin-right: 0;
+}
+.kiri{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 116px;
+    margin-left: 195px;
+    margin-top: 178px;
+    color: #007BFF;
+}
+.str{
+    font-weight: 700;
+}
+.kiri, .tengah, .kanan{
+    display: inline-block;
+}
+.tengah{
+    filter: drop-shadow(-9px 9px 25px rgba(0, 0, 0, 0.25));
+    transform: rotate(21.56deg);
+    width: 727.09px;
+    height: 727.09px;
+}
+.kanan p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    color: #343A40;
+    
+}
+.kanan{
+    bottom: 0;
+    z-index: 999;
+    position: absolute;
+    left: 1138px;
+    top: 936px;
+}
+.buy{
+    width: 249px;
+    height: 83px;
+    text-align: center;
+    background: #EEEEEE;
+    border: 3px solid #007BFF;
+    border-radius: 9px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 18px;
+    color: #007BFF;
+
+}
